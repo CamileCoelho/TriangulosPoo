@@ -10,10 +10,7 @@
 
             while (true)
             {
-                Console.Clear();
-                Console.WriteLine("_________________________________________________________________________________");
-                Console.WriteLine("\n                         Verificação Triângulos                                ");
-                Console.WriteLine("_________________________________________________________________________________");
+                ImprimirTitulo();
 
                 triangulo.LerLados();
 
@@ -36,6 +33,14 @@
             }
 
             Console.ResetColor();
+        }
+
+        private static void ImprimirTitulo()
+        {
+            Console.Clear();
+            Console.WriteLine("_________________________________________________________________________________");
+            Console.WriteLine("\n                         Verificação Triângulos                                ");
+            Console.WriteLine("_________________________________________________________________________________");
         }
 
         static void ExibirMensagemEmVermelho( string mensagem)
