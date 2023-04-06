@@ -24,6 +24,7 @@
                         Console.WriteLine("\n   O triângulo é isósceles");
                     else
                         Console.WriteLine("\n   O triângulo é escaleno");
+
                     break;
                 }
                 else

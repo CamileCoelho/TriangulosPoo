@@ -19,6 +19,7 @@ namespace TriangulosPoo.ConsoleApp
             Console.Write("\n   Digite o comprimento do terceiro lado do triângulo: ");
             lado3 = double.Parse(Console.ReadLine());
         }
+
         public bool VerificarTriangulo()
         {
             if (lado1 < lado2 + lado3 && lado2 < lado1 + lado3 && lado3 < lado1 + lado2)
